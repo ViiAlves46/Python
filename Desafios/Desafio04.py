@@ -1,0 +1,5 @@
+dados = input('Digite os dados a serem categorizados: ')
+print(type(dados))
+print('É numérico ?', dados.isalpha())
+print('É alfabético?', dados.isnumeric())
+print('É alfanumérico?', dados.isalnum())

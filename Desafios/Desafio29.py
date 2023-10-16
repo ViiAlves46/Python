@@ -1,0 +1,5 @@
+Frase = str(input('Digite uma frase: '))
+L1 = str(input('Digite a letra a ser substituida: '))
+L2 = str(input('Digite a letra a substituir: '))
+New = Frase.replace(L1, L2)
+print (New)
