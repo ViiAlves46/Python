@@ -1,5 +1,6 @@
-dia = input("digite o dia de se nascimento: ")
-mes = input("digite o mes do seu nascimento: ")
+dia = int(input("digite o dia de se nascimento: "))
+mes = int(input("digite o mes do seu nascimento: "))
+
 if (dia >= 21 and mes == 3) or (dia <= 20 and  mes == 4):
    print ('aries')
 if (dia >= 21 and mes == 4) or (dia <= 20 and mes == 5):
